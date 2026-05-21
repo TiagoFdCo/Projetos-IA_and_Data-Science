@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt #n sei se vou usar essa daqui
 from sklearn.preprocessing import StandardScaler
 
 
-file_path = 'C:/Users/feito/OneDrive/Documentos/projetinho_ia/data_science/datasets/missing_values_example.csv'
+file_path = 'datasets/missing_values_example.csv'
 
 df = pd.read_csv(file_path) #lê o csv
 

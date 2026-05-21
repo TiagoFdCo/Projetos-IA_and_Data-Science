@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 'escape Unicode', como 'contrabarra n' ou 'contrabarra t'. A solução foi usar a barra normal, mas também poderia 
 ser resolvida usando raw string (colocar r antes da aspas simples)'''
 
-file_path = 'C:/Users/feito/OneDrive/Documentos/projetinho_ia/data_science/datasets/fuel_prices_1970_2026.csv'
+file_path = 'data_science/datasets/fuel_prices_1970_2026.csv'
 
 df = pd.read_csv(file_path)
 
