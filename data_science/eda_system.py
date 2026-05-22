@@ -18,11 +18,7 @@ df = pd.read_csv(file_path)
 #print(df.head()) #head retorna as primeiras n linhas passadas como argumento. Por padrão, retorna as 5 primeiras
 
 #Gerando estatísticas descritivas
-media = np.mean(df["Crude_Oil_Price"])
-desvio_padrao = np.std(df['Crude_Oil_Price'])
-
-print(round(media, 2))
-print(round(desvio_padrao, 2))
+print(df.describe()) #Mostra algumas estatísticas descritivas relativas ao dataset
 
 #Criando o gráfico
 ax = df.plot(x='Date', y='Crude_Oil_Price', title='Preço do petróleo com o passar dos anos')
